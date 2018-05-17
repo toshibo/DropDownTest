@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Hv1-iZ-2PZ" customClass="CollectionViewCell" customModule="DropDownTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beerImage" translatesAutoresizingMaskIntoConstraints="NO" id="N8b-lE-e2K">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="VIM-KS-tq6"/>
+                            <constraint firstAttribute="width" constant="150" id="dZG-e6-WwC"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="N8b-lE-e2K" firstAttribute="leading" secondItem="Hv1-iZ-2PZ" secondAttribute="leading" id="Atp-Pk-vQs"/>
+                <constraint firstItem="N8b-lE-e2K" firstAttribute="top" secondItem="Hv1-iZ-2PZ" secondAttribute="top" id="ORp-t3-4yu"/>
+                <constraint firstAttribute="bottom" secondItem="N8b-lE-e2K" secondAttribute="bottom" id="ijU-o3-kPa"/>
+                <constraint firstAttribute="trailing" secondItem="N8b-lE-e2K" secondAttribute="trailing" id="zGl-t7-TqW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="3et-OK-XHQ"/>
+            <size key="customSize" width="150" height="150"/>
+            <point key="canvasLocation" x="-84" y="-44"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="beerImage" width="500" height="500"/>
+    </resources>
+</document>

@@ -12,6 +12,13 @@
 		1866BEDA20AB24B6005AAEE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1866BED820AB24B6005AAEE7 /* Main.storyboard */; };
 		1866BEDC20AB24BA005AAEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1866BEDB20AB24BA005AAEE7 /* Assets.xcassets */; };
 		1866BEDF20AB24BA005AAEE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1866BEDD20AB24BA005AAEE7 /* LaunchScreen.storyboard */; };
+		1866BEE720AC6908005AAEE7 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866BEE620AC6907005AAEE7 /* CollectionHeaderView.swift */; };
+		1866BEE920AC6928005AAEE7 /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1866BEE820AC6927005AAEE7 /* CollectionHeaderView.xib */; };
+		1866BEEB20AC694C005AAEE7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866BEEA20AC694C005AAEE7 /* CollectionViewCell.swift */; };
+		1866BEED20AC6966005AAEE7 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1866BEEC20AC6966005AAEE7 /* CollectionViewCell.xib */; };
+		1866BEF220AC7E22005AAEE7 /* DropDownPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866BEF020AC7E22005AAEE7 /* DropDownPresentationController.swift */; };
+		1866BEF320AC7E22005AAEE7 /* DropDownAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866BEF120AC7E22005AAEE7 /* DropDownAnimator.swift */; };
+		1866BEF520AC7EE8005AAEE7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866BEF420AC7EE8005AAEE7 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		1866BEDB20AB24BA005AAEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1866BEDE20AB24BA005AAEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1866BEE020AB24BA005AAEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1866BEE620AC6907005AAEE7 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		1866BEE820AC6927005AAEE7 /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		1866BEEA20AC694C005AAEE7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1866BEEC20AC6966005AAEE7 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		1866BEF020AC7E22005AAEE7 /* DropDownPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownPresentationController.swift; sourceTree = "<group>"; };
+		1866BEF120AC7E22005AAEE7 /* DropDownAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownAnimator.swift; sourceTree = "<group>"; };
+		1866BEF420AC7EE8005AAEE7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				1866BEDB20AB24BA005AAEE7 /* Assets.xcassets */,
 				1866BEDD20AB24BA005AAEE7 /* LaunchScreen.storyboard */,
 				1866BEE020AB24BA005AAEE7 /* Info.plist */,
+				1866BEE620AC6907005AAEE7 /* CollectionHeaderView.swift */,
+				1866BEE820AC6927005AAEE7 /* CollectionHeaderView.xib */,
+				1866BEEA20AC694C005AAEE7 /* CollectionViewCell.swift */,
+				1866BEEC20AC6966005AAEE7 /* CollectionViewCell.xib */,
+				1866BEF120AC7E22005AAEE7 /* DropDownAnimator.swift */,
+				1866BEF020AC7E22005AAEE7 /* DropDownPresentationController.swift */,
+				1866BEF420AC7EE8005AAEE7 /* TableViewController.swift */,
 			);
 			path = DropDownTest;
 			sourceTree = "<group>";
@@ -123,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1866BEDF20AB24BA005AAEE7 /* LaunchScreen.storyboard in Resources */,
+				1866BEE920AC6928005AAEE7 /* CollectionHeaderView.xib in Resources */,
 				1866BEDC20AB24BA005AAEE7 /* Assets.xcassets in Resources */,
 				1866BEDA20AB24B6005AAEE7 /* Main.storyboard in Resources */,
+				1866BEED20AC6966005AAEE7 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1866BEE720AC6908005AAEE7 /* CollectionHeaderView.swift in Sources */,
+				1866BEF520AC7EE8005AAEE7 /* TableViewController.swift in Sources */,
 				1866BED720AB24B6005AAEE7 /* ViewController.swift in Sources */,
+				1866BEF220AC7E22005AAEE7 /* DropDownPresentationController.swift in Sources */,
+				1866BEEB20AC694C005AAEE7 /* CollectionViewCell.swift in Sources */,
 				1866BED520AB24B5005AAEE7 /* AppDelegate.swift in Sources */,
+				1866BEF320AC7E22005AAEE7 /* DropDownAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

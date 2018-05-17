@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="VK0-iR-qtH" customClass="CollectionHeaderView" customModule="DropDownTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="448" height="317"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUK-a5-s29">
+                    <rect key="frame" x="239" y="277" width="199" height="30"/>
+                    <state key="normal" title="ドロップダウンを表示させる">
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showDropDown:" destination="VK0-iR-qtH" eventType="touchUpInside" id="Gud-Ft-TTD"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collection Header View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a27-TX-vut">
+                    <rect key="frame" x="134.5" y="150" width="179" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.66619742530000003" blue="0.19733723280000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="a27-TX-vut" firstAttribute="top" secondItem="Szf-KX-WFA" secondAttribute="top" constant="150" id="C0e-a7-uXT"/>
+                <constraint firstItem="Szf-KX-WFA" firstAttribute="bottom" secondItem="BUK-a5-s29" secondAttribute="bottom" constant="10" id="JK3-zb-9ZP"/>
+                <constraint firstItem="Szf-KX-WFA" firstAttribute="trailing" secondItem="BUK-a5-s29" secondAttribute="trailing" constant="10" id="WpV-42-nrb"/>
+                <constraint firstItem="a27-TX-vut" firstAttribute="centerX" secondItem="VK0-iR-qtH" secondAttribute="centerX" id="dCf-lV-OwN"/>
+                <constraint firstItem="Szf-KX-WFA" firstAttribute="bottom" secondItem="a27-TX-vut" secondAttribute="bottom" constant="150" id="iRA-UK-ym0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Szf-KX-WFA"/>
+            <point key="canvasLocation" x="-42" y="-120.5"/>
+        </collectionReusableView>
+    </objects>
+</document>
